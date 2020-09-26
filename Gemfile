@@ -3,9 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'simple_form'
+gem 'bootstrap-sass',  '~> 3.2.0.2'
+gem 'jquery-rails'
+gem 'haml'
 gem 'mongoid', '~> 7.0.5'
 gem 'devise'
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
