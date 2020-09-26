@@ -1,0 +1,7 @@
+%h3 tasks needs to be created in the tasks controller index action!!!
+
+- @tasks.each do |task| 
+  %h2= task.title
+  %p= task.company
+
+= link_to "New Task", new_task_path
